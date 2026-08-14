@@ -29,5 +29,4 @@ from
 left JOIN skills_job_dim on top_paying_data_jobs.job_id = skills_job_dim.job_id
 left JOIN skills_dim on skills_job_dim.skill_id= skills_dim.skill_id
 ORDER BY
-        salary_year_avg DESC
-limit 50;
+        salary_year_avg DESC;
